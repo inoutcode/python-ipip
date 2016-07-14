@@ -10,6 +10,7 @@ _unpack_V = lambda b: struct.unpack("<L", b)
 _unpack_N = lambda b: struct.unpack(">L", b)
 _unpack_C = lambda b: struct.unpack("B", b)
 
+
 class IP:
     offset = 0
     index = 0
